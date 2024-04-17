@@ -3,4 +3,4 @@ This Python script verifies IAM role policies according to the specified criteri
 
 ## Usage
 Clone the Repository: Clone or download this repository to your local machine.
-`git clone https://github.com/LAICEROO/Remitly.Intership_2024.git`
+'''git clone https://github.com/LAICEROO/Remitly.Intership_2024.git'''
