@@ -4,7 +4,6 @@ import json
 # Function to verify IAM role policy
 def verify(input_json_file):
     try:
-        # Open the input JSON file
         with open(input_json_file, 'r') as file:
             data = json.load(file)
 
@@ -15,13 +14,12 @@ def verify(input_json_file):
                     return False
             return True
     except FileNotFoundError:
-        # Handle file not found error
         print("File not found.")
         return False
     except (json.JSONDecodeError, KeyError, IndexError):
-        # Handle JSON decode error or missing required fields
         print("Invalid JSON format or missing required fields.")
         return False
+
 
 # Unit tests
 class TestVerifyIAMRolePolicy(unittest.TestCase):
