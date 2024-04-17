@@ -25,3 +25,7 @@ You can run the unit tests using the following command:
 iam_role_verification.py: Contains the main script for verifying IAM role policies.
 test_iam_role_verification.py: Contains unit tests for the verification function.
 README.md: This README file.
+
+## Dependencies
+- Python 3.x
+- unittest module 
